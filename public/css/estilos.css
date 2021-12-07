@@ -1,0 +1,227 @@
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background: linear-gradient(to bottom, #702632 0%, #912f40 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	font-size:1vw;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#filtro_nom{
+	font-weight: 900;
+	color:red;
+}
+
+h4,
+h2 {
+	display: block;
+	width: 100%;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 260%;
+	border-radius: 20px;
+	background-color: #191308;
+	color: white;
+}
+
+i {
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 100%;
+	width: 7%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	padding: 0;
+	left: 0;
+}
+
+nav>ul{
+	position:relative;
+	top:30%;
+}
+
+tr > td:last-of-type > a {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+ul > li {
+	margin-bottom: 10%;
+	padding-top: 30%;
+	padding-bottom: 30%;
+	text-align: center;
+	background-color: rgb(5, 5, 5);
+	display: block;
+}
+
+li > a {
+	color: #ffffff;
+}
+
+.alert {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.ancho {
+	margin-left: auto;
+	font-size: 100%;
+	color: azure;
+	width: 90%;
+	text-align: left;
+}
+
+.borrar {
+	background: transparent;
+	border: none;
+}
+
+.borrar:hover {
+	background: transparent;
+	border: none;
+	color: red;
+}
+
+.form-label {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+form {
+	display: inline;
+}
+
+tr > td {
+	text-transform: uppercase;
+}
+
+th {
+	font-size: 105%;
+	text-transform: uppercase;
+}
+
+.card-group {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+form > div:last-of-type {
+	border: none;
+	margin-top: 3%;
+	border: none;
+	margin-bottom: 2%;
+}
+
+form > div:last-of-type > input {
+	border: none;
+	background-color: rgb(169, 153, 153);
+    text-transform: uppercase;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 1vw;
+    padding:1.5%;
+	border: none;
+	text-align: center;
+}
+
+div > img:first-of-type {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	height: 50px;
+}
+
+form {
+	padding: 2%;
+
+}
+
+h5{
+	font-family: Impact;
+	margin-top: 2%;
+}
+
+.card>h5:first-of-type, .card>img:first-of-type{
+	display: inline-block;
+}
+
+.card {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 2%;
+}
+
+object {
+	width: 100%;
+	height: 500px;
+}
+
+label {
+	text-align: left;
+	text-transform: uppercase;
+	margin: 2% 0;
+	background-color: rgba(165, 235, 187, 0.64);
+	padding: 0.3%;
+	border-radius: 3px;
+	width: 100%;
+}
+
+h5.card-title {
+	text-align: center;
+	padding: 1%;
+}
+
+.form-group {
+	margin: 0.1%;
+	padding: 0.5%;
+	border-radius: 20px;
+	font-size: 1vw;
+
+}
+
+.form-group>input {
+	padding: 1%;
+	border-radius: 6px;
+	font-size: 0.9vw;
+
+}
+
+.obligatorio::after{
+	content:'*';
+	color:red;
+	font-weight: bold;
+	font-size:120%;
+}

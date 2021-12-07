@@ -1,0 +1,127 @@
+body {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: linear-gradient(to bottom, #702632 0%, #912F40 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+h4 {
+    display: block;
+    width: 60%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    border-radius: 20px;
+    background-color: #191308;
+    color: white;
+}
+
+i {
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+    width: 10%;
+    background-color: #9CA3DB;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol,li {
+    list-style: none;
+    margin-left:0;
+    PADDING: 3PX;
+
+}
+
+.alert {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.ancho {
+    margin-left: auto;
+    font-size: 100%;
+    color: azure;
+    width: 90%;
+    text-align: left;
+}
+
+.borrar {
+    background: transparent;
+    border: none;
+}
+
+.borrar:hover {
+    background: transparent;
+    border: none;
+    color: red
+}
+
+
+.form-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+
+form {
+    display: inline;
+}
+
+
+main {
+    margin: 0 auto;
+    width:70%;
+    background: rgba(255,255,255,0.5);
+    height: 1000px;
+
+}
+
+#filtro_nom.borrar{
+background:yellow;
+padding:0.5%;
+}
+
+
+iframe {
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 700px;
+    overflow:auto
+
+}
+
+
+
+section>div{
+        margin: 0 auto;
+        text-align: center;
+
+}
+
+.card-text{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
